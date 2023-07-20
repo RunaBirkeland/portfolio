@@ -1,30 +1,47 @@
-import React from "react"
+import React, { useState } from "react"
+import { Link } from "react-router-dom"
 import "./Navbar.css"
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import { FaBars, FaTimes } from "react-icons/fa"
+import { IconContext } from "react-icons/lib"
+import { NavLink } from "react-router-dom"
+import logo from "./monogram_purple.png"
 
 function Navbar() {
-    return (
-         <nav className="navbar">
-            <div className="navbar-container">
-                <Link to="/" className="site-title">RB</Link>
-                <ul>
-                    <CustomLink to="/about">About Me</CustomLink>
-                    <CustomLink to="/contact">Contact Me</CustomLink>
-                    <CustomLink to="/projects">My Projects</CustomLink>
-                </ul>
-            </div> 
-         </nav>
-    )
-}
+    const [click, setClick] = useState(false);
 
-function CustomLink({ to, children, ...props }) {
-    const resolvedPath = useResolvedPath(to)
-    const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+
     return (
-        <li className={isActive ? "active" : ""}>
-             <Link to={to} {...props}>{children}</Link>
-        </li>
-    )
+        <>
+            <IconContext.Provider value={{ color: "#160624" }}>
+                <nav className="navbar">
+                    <div className="navbar-container container">
+                        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                            <img src={logo} width={40} height={30} alt="logo"/>
+                        </Link>
+                        <div className="menu-icon" onClick={handleClick}>
+                            {click ? <FaTimes /> : <FaBars />}
+                        </div>
+                        <ul className={click ? "nav-menu active" : "nav-menu"}>
+                            <li className="nav-item">
+                                <NavLink to="/about" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")}
+                                    onClick={closeMobileMenu}>About Me</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink to="/projects" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")}
+                                    onClick={closeMobileMenu}>My Projects</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink to="/contact" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")}
+                                    onClick={closeMobileMenu}>Get In Touch</NavLink>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </IconContext.Provider>
+        </>
+    );
 }
 
 export default Navbar
