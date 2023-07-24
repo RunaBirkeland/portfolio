@@ -6,9 +6,9 @@
 }
 
 .navbar {
-    background-color: #fffdf7;
-    color: #160624;
-    height: 60px;
+    background-color: #FFFDF7;
+    color: #1C1C1C;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 60px;
+    height: 150px;
 }
 
 .container {
@@ -30,8 +30,9 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+
 }
 
 .navbar-logo {
@@ -39,6 +40,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+    padding-left: 15px;
 }
 
 .navbar-icon {
@@ -57,15 +59,18 @@
 
 .nav-item {
     height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 2px solid transparent;
+    padding-right: 15px;
 }
 
 .nav-item:hover {
-    border-bottom: 2px solid #160624;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
 }
 
 .nav-links {
-    color: #160624;
+    color: #1C1C1C;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -74,11 +79,11 @@
 }
 
 .activated {
-    border-bottom: 2px solid #160624;
+    border-bottom: 2px solid #1C1C1C;
 }
 
 .fa-bars {
-    color: #160624;
+    color: #1C1C1C;
 }
 
 .menu-icon {
@@ -116,7 +121,7 @@
     }
 
     .nav-links:hover {
-        color: #6F1AB6;
+        color: #695E52;
         transform: scale(1.2);
         transition: all 0.3s ease;
       }
@@ -137,6 +142,8 @@
         position: absolute;
         top: 0;
         left: 0;
+        padding-top: 10px;
+        padding-left: 10px;
         transform: translate(25%, 50%);
       }
 
@@ -145,6 +152,7 @@
         position: absolute;
         top: 0;
         right: 0;
+        padding-top: 5px;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;

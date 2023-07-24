@@ -4,7 +4,7 @@ import "./Navbar.css"
 import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
 import { NavLink } from "react-router-dom"
-import logo from "./monogram_purple.png"
+import logo from "./images/monogram_coal.png"
 
 function Navbar() {
     const [click, setClick] = useState(false);
