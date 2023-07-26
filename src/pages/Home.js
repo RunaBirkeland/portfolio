@@ -5,7 +5,11 @@ import Cards from "../components/Cards"
 function Home() {
     return (
         <div>
-            <HeroSection />
+            <HeroSection 
+                text="Hi! I'm Runa Birkeland.
+                A creative designer and developer based in Oslo. 
+                Welcome to my portfolio!"
+            />
             <Cards />
         </div> 
     )
