@@ -1,6 +1,11 @@
 import React from "react"
 import "../App.css"
+import Posts from "../components/Posts"
 
-export default function Projects() {
-    return <h1>Projects</h1>
+function Projects() {
+    return (
+        <Posts />
+    )
 }
+
+export default Projects
