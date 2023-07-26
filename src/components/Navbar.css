@@ -40,7 +40,6 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding-left: 15px;
 }
 
 .navbar-icon {
@@ -53,15 +52,13 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    text-align: center;
-    justify-content: flex-end;
+    text-align: right;
 }
 
 .nav-item {
     height: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 2px solid transparent;
-    padding-right: 15px;
 }
 
 .nav-item:hover {
