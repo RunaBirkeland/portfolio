@@ -3,23 +3,19 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-    font-weight: normal;
-    color: #1C1C1C;
-}
-
 .cards_container {
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
-    width: 90%;
     margin: 0 auto;
 }
 
 .cards_wrapper {
+    display: flex;
+    flex-direction: row;
     position: relative;
-    margin: 50px 0 45px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .cards_items {
@@ -30,23 +26,22 @@ h1 {
     display: flex;
     flex: 1;
     margin: 0 2rem;
-    border-radius: 10px;
     width: 16rem;
+    border: 1px solid;
+    border-color: #EAE1D5;
 }
 
 .cards_item_link {
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(105, 94, 82);
-    border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
 }
 
 .cards_item_pic-wrap {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     padding-top: 67%;
     overflow: hidden;
 }
@@ -63,10 +58,12 @@ h1 {
     bottom: 0;
     left: 0;
     display: block;
-    width: 100%;
+    padding: 15% 10% 10%;
+    margin: auto;
+    width: auto;
     max-width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     transition: all 0.2s linear;
 }
 
@@ -81,7 +78,9 @@ h1 {
 .cards_item_text {
     color: #1C1C1C;
     font-size: 18px;
+    font-weight: normal ;
     line-height: 24px; 
+    text-align: center;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -90,7 +89,7 @@ h1 {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 600px) {
     .cards_items {
         display: flex;
     }
@@ -99,5 +98,12 @@ h1 {
 @media only screen and (max-width: 1024px) {
     .cards_item {
         margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .cards_wrapper {
+        display: flex;
+        flex-direction: column;
     }
 }
