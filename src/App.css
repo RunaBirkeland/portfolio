@@ -1,12 +1,37 @@
 * {
   box-sizing: border-box;
+  background-color: fffdf7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-  margin: 0;
+body { 
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .container {
   margin: 1rem;
   text-align: center;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edu-and-exp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.skills {
+  justify-content: right;
+}
+
+@media only screen and (max-width: 960px) {
+  .resume-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
