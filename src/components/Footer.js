@@ -13,25 +13,19 @@ function Footer() {
                 <div class="social-icons">
                     <Link 
                         class="social-icon-link" 
-                        to="/"
+                        to="https://www.linkedin.com/in/runa-birkeland-1108111b9/"
                         target="_blank"
                         aria-label="LinkedIn"
                     >
                         <AiOutlineLinkedin />
-                        <p className="social-label">
-                        LinkedIn
-                        </p>
                     </Link>
                     <Link 
                         class="social-icon-link" 
-                        to="/"
+                        to="mailto:runa.birkeland@gmail.com"
                         target="_blank"
                         aria-label="Mail"
                     >
                         <AiOutlineMail />
-                        <p className="social-label">
-                        E-Mail
-                    </p>
                     </Link>
                 </div>
             </section>
