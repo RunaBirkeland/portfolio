@@ -1,0 +1,51 @@
+.list-wrap {
+    border-bottom: 1px solid;
+    border-color: #EAE1D5;
+    width: 500px;
+    padding-bottom: 1rem;
+}
+
+.list-head {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item-container {
+    margin-bottom: 1rem;
+}
+
+.list-item-head-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: normal;
+    color: #3C3A38;  
+}
+
+.date {
+    font-size: 12px;
+    font-weight: normal;
+    color: #3C3A38;
+}
+
+.description {
+    font-size: 12px;
+    font-weight: normal;
+    color: #1c1c1c;
+    font-style: italic;
+    text-align: left;
+}
