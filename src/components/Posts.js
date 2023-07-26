@@ -85,7 +85,7 @@ function Posts() {
                             />
                             <div className="button-wrap">
                                 <Button
-                                    path="/"
+                                    path="https://github.com/RunaBirkeland/portfolio"
                                     title="View Project"
                                 />
                             </div>
