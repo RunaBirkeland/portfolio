@@ -5,8 +5,8 @@
     flex-direction: column;
     object-fit: contain;
     justify-content: center;
-    padding-top: 4rem;
-    padding-bottom: 6rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .hero-container p {
