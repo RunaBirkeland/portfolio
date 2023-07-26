@@ -20,7 +20,7 @@ function Cards() {
                         />
                         <CardItem
                             src={ WebDes }
-                            text="Mobile and Web application design"
+                            text="UX/UI design"
                             alt="UI Design Icon"
                             path="/projects"
                         />
@@ -28,13 +28,13 @@ function Cards() {
                         <ul className="cards_items">
                         <CardItem
                             src={ GraphDes }
-                            text="Print and Graphic Design"
+                            text="Graphic Design"
                             alt="Graphic Design Icon"
                             path="/projects"
                         />
                         <CardItem
                             src={ UserRes }
-                            text="User Research"
+                            text="UX Research"
                             alt="User Research Icon"
                             path="/projects"
                         />
