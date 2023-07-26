@@ -10,9 +10,15 @@
 }
 
 .category-header {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-weight: normal;
     text-align: left;
+    font-size: 24px;
+}
+
+.category-introduction {
+    margin-bottom: 4rem;
+    font-size: 16px;
 }
 
 .post-items {
@@ -35,8 +41,8 @@
 
 .post-pic-wrapper {
     position: relative;
-    max-width: 500px;
-    max-height: 200px;
+    max-width: 300px;
+    width: 300px;
     overflow: hidden;
     margin: 0 20px;
 }
@@ -44,6 +50,7 @@
 .post-img {
     max-width: 100%;
     vertical-align: middle;
+    padding: 10px;
 }
 
 .post-info-wrapper {
@@ -52,7 +59,7 @@
 
 .post-header {
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -77,6 +84,7 @@
     .post-pic-wrapper {
         margin: auto;
         max-width: 300px;
+        padding-top: 20px;
     }
 }
 
