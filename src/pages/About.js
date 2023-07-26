@@ -9,7 +9,7 @@ export default function About() {
     return (
         <>
             <HeroSection 
-                text="A trained interaction designer who focuses on creating designs that are both intuitive and attractive."
+                text="A trained interaction designer, blending intuitive design with pleasing aesthetics."
             />
             <div className="resume-container">
                 <div className="edu-and-exp">

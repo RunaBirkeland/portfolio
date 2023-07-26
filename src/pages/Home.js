@@ -7,7 +7,7 @@ function Home() {
         <div>
             <HeroSection 
                 text="Hi! I'm Runa Birkeland.
-                A creative designer and developer based in Oslo. 
+                A creative designer and developer based in Oslo.
                 Welcome to my portfolio!"
             />
             <Cards />
