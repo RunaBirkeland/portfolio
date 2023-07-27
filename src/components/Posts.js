@@ -79,9 +79,7 @@ function Posts() {
                                 both for the benfit of the users as well as for my own 
                                 personal development. Apart from the icons used for the responsive 
                                 menu and the Footer, all the graphics and icons are 
-                                made by yours truly. 
-                                The website is developed using and hosted by GitHub, 
-                                so the button below will lead to the GitHub project."
+                                made by yours truly. The button below will lead to the GitHub project."
                             />
                             <div className="button-wrap">
                                 <Button
