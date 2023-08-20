@@ -20,7 +20,7 @@ function Cards() {
                         />
                         <CardItem
                             src={ WebDes }
-                            text="UX/UI design"
+                            text="UI/UX design"
                             alt="UI Design Icon"
                             path="/projects"
                         />

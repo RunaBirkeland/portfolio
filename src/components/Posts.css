@@ -32,7 +32,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 20px; 
 }
 
 .post-pic-wrapper {
@@ -59,9 +58,10 @@
     text-align: left;
 }
 
-.post-text {
+.post-item p {
     text-align: left;
     font-size: 14px;
+    padding-bottom: 20px;
 }
 
 .button-wrap {

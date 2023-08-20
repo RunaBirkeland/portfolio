@@ -10,7 +10,9 @@ function PostItem(props) {
                 </figure>
                 <div classname="post-info-wrapper">
                     <h1 className="post-header">{props.header}</h1>
-                    <p className="post-text">{props.text}</p>
+                    <p className="post-intro">{props.intro}</p>
+                    <p className="post-mid">{props.mid}</p>
+                    <p className="post-end">{props.end}</p>
                 </div>
             </div>
         </>
