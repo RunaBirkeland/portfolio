@@ -25,13 +25,13 @@ function Posts() {
                                 header="(H)ear Redesign"
                                 text="This is a prototype which was created as part of my bachelor thesis.
                                 During the project my partner and I collaborated with a start-up called Woid AS,
-                                a company which is developing an assistive technology application. The project
-                                involved a comprehensive redesign of the application (h)ear. 
-                                The color palette, icon design, illustrations, and 
-                                walkthrough were solely developed by me, while the remaining 
-                                aspects were the result of collaborative efforts with my 
-                                partner, where we both contributed equally to the overall 
-                                design. The button leads to the Figma file."
+                                a company which is developing an assistive technology application called (h)ear. The project
+                                involved the planning and completion of an extensive usability test of the app, as well as a 
+                                comprehensive redesign based on the collected data. 
+                                In the finished product the colour palette, icon design, illustrations, and 
+                                walkthrough were designed solely by me, while the remaining 
+                                aspects were the results of collaborative efforts with my 
+                                partner. The button below leads to the Figma file."
                             />
                             <div className="button-wrap">
                                 <Button
