@@ -18,6 +18,6 @@
 @media only screen and (max-width: 1200px) {
     .hero-container  {
         height: 250px;
-        padding-bottom: 30px;
+        margin-bottom: 30px;
     }
 }
