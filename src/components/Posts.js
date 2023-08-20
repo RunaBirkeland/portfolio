@@ -35,7 +35,7 @@ function Posts() {
                             />
                             <div className="button-wrap">
                                 <Button
-                                    path="https://www.figma.com/proto/MnFtHJYshlSGM9d9IyTS0O/(h)ear-suggestions-for-new-prototype?node-id=101-2318&starting-point-node-id=101%3A2318&mode=design&t=riup3pMKbXRZDIgk-1"
+                                    path="https://www.figma.com/proto/lunQwr5uEzrdFuUbtfymFU/(h)ear-suggestions-for-new-prototype-(Copy)?type=design&node-id=101-2318&t=3ophLmzzbfM3sgsI-1&scaling=scale-down&page-id=101%3A2034&starting-point-node-id=101%3A2318&mode=design"
                                     title="View Project"
                                 />
                             </div>
