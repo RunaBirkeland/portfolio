@@ -8,7 +8,6 @@
 .navbar {
     background-color: #FFFDF7;
     color: #1C1C1C;
-    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 150px;
+    height: 100px;
 }
 
 .container {
@@ -154,6 +153,10 @@
         font-size: 1.8rem;
         cursor: pointer;
       }
+
+      .navbar-container  {
+        height: 75px;
+    }
 }
 
 

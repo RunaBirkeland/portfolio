@@ -18,10 +18,6 @@
     margin: 0 auto;
 }
 
-.cards_items {
-    margin-bottom: 24px;
-}
-
 .cards_item {
     display: flex;
     margin: 0 1rem;
